@@ -1,7 +1,7 @@
 ---
-layout: post
-toc: true
-toc_sticky: true
+layout: page
+#toc: true
+#toc_sticky: true
 title: 폐쇄망 환경에서 Scouter2 설치하기
 category: 폐쇄망 환경에서 오픈소스 소프트웨어 사용하기
 tags: [VPN, opensource]
