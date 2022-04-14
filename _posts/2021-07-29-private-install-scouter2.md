@@ -42,7 +42,7 @@ wget https://github.com/scouter-project/scouter/releases/download/vx.x.x/scouter
 =============
 참고자료
 -------------
-[설치 매뉴얼(한글) : https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md][https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md]
+설치 매뉴얼(한글) : https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md
 
 사전 작업
 -------------
