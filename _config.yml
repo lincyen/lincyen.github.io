@@ -289,6 +289,7 @@ defaults:
       share: true # 소셜 공유 기능 활성화
       related: true # 관련 포스트 추천 활성화
       toc: true         # 현재 페이지의 목차 보기 활성화
+      classes: wide     # 옆으로 크게 보기
       #sidebar:          # (내 커스텀 변수) 블로그 목차 보기
       #nav: main-sidebar   # (내 커스텀 변수) /_data/navigation.yml에 main-sidebar의 내용을 정의
       
