@@ -34,7 +34,7 @@ download 대상 파일 :
 
 또는 wget 활용하여 하단 명령어 실행(버전정보 입력 필요)
 
-```
+```bash
 wget https://github.com/scouter-project/scouter/releases/download/vx.x.x/scouter-all-x.xx.x.x.SNAPSHOT.tar.gz
 ```
 
