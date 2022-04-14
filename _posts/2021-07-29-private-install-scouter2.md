@@ -42,7 +42,7 @@ wget https://github.com/scouter-project/scouter/releases/download/vx.x.x/scouter
 =============
 참고자료
 -------------
-설치 매뉴얼(한글) : https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md
+[설치 매뉴얼(한글) : https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md][https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md]
 
 사전 작업
 -------------
@@ -153,12 +153,12 @@ SCOUTER PAPER는 아파치 라이선스 2.0을 따르는 오픈 소스 소프트
 
 다운로드
 -------------
-[설치 경로 : https://github.com/scouter-contrib/scouter-paper/releases][https://github.com/scouter-contrib/scouter-paper/releases]
+설치 경로 : https://github.com/scouter-contrib/scouter-paper/releases
 
 설치 및 실행
 -------------
 참고
-[설치 매뉴얼 : https://scouter-contrib.github.io/scouter-paper/manual.html][https://scouter-contrib.github.io/scouter-paper/manual.html]
+설치 매뉴얼 : https://scouter-contrib.github.io/scouter-paper/manual.html
 
 설정
 scouter server 와 같은 경로상의 webapp 를 확인
@@ -172,8 +172,10 @@ net_http_port=6180 #scouter RESTful API port 정보
 
 다운로드 받은 파일을 scouter/webapp/extweb 밑에 복사 및 scouter 재시작
 웹 API 동작 여부 확인
+
+```bash
 curl http://{SERVER-ADDRESS}:6180/scouter/v1/info/server
-Code Block 6 web api call
+```
 
 아래 주소로 접속 후 동작 여부 확인
 접속 url
