@@ -28,10 +28,10 @@ tags: [VPN, opensource]
 ================
 지속적으로 업데이트 예정입니다.
 
-[폐쇄망 환경에서 Scouter2 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-scouter2/)
-[폐쇄망 환경에서 telegraf 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-telegraf/)
-[폐쇄망 환경에서 influxDB2 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-influxdb2/)
-[폐쇄망 환경에서 grafana 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-grafana/)
++ [폐쇄망 환경에서 Scouter2 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-scouter2/)
++ [폐쇄망 환경에서 telegraf 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-telegraf/)
++ [폐쇄망 환경에서 influxDB2 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-influxdb2/)
++ [폐쇄망 환경에서 grafana 설치하기](https://lincyen.github.io/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EA%B8%B0/private-install-grafana/)
 
 
 
