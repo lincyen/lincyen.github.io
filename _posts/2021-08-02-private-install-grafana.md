@@ -313,8 +313,8 @@ Complete!
 
 |제목|화면|비고|
 |---|----|----|
-|최초화면||http://<SERVER-IP>:3000/login 접속 및 최초정보 입력</br>최초 계정 : admin</br>초기 패스워드 : admin</br>|
-|초기 패스워드 설정| |초기 계정의 패스워드를 변경|
+|최초화면|![image](https://user-images.githubusercontent.com/23024189/163523638-6ac603c4-6c75-40e0-b073-bd7da6895390.png)|http://<SERVER-IP>:3000/login 접속 및 최초정보 입력<br>최초 계정 : admin<br>초기 패스워드 : admin|
+|초기 패스워드 설정|![image](https://user-images.githubusercontent.com/23024189/163523611-169b7259-5ae5-4a54-a85f-0e2e2c4c0595.png)|초기 계정의 패스워드를 변경|
 
 
 프로그램 종료
