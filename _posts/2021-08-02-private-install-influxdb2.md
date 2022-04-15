@@ -31,6 +31,7 @@ wget https://dl.influxdata.com/influxdb/releases/influxdb2-2.0.7.x86_64.rpm
 
 프로그램 설치 및 최초 실행
 ============
+
 설치
 ------------
 
