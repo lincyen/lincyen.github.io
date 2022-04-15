@@ -111,9 +111,9 @@ Hint: Some lines were ellipsized, use -l to show in full.
 
 |제목|화면|비고|
 |-------|------|-------|
-|최초 화면|![image](https://user-images.githubusercontent.com/23024189/163518676-5f342fe2-3b3a-4ef3-971d-a2d1a1507127.png)|http://<설치서버IP>:8086 접속 및 최초 정보 입력</br>최초 로그인 시 해당 화면으로 진입하여 최초 설정을 진행합니다.|
-|초기 설정|![image](https://user-images.githubusercontent.com/23024189/163518706-23e9bb43-846b-4cfc-b628-6b121160b0e7.png)|username, password, initial organization name 및 초기 bucket name 을 입력합니다.</br>해당 가이드에서는 아래와 같이 진행하였습니다.</br>username : admin</br>password :</br>initial organization name :</br>initial bucket name : influxdb-data|
-|완료|![image](https://user-images.githubusercontent.com/23024189/163518838-f2fcc8d9-e19f-4535-a9ee-d529b32635c2.png)|최초 데이터 수집 방법을 질의합니다.</br>Quick Start : 초기 설정을 구성합니다. 예제 대시보드 및 예제 수집이 포함됩니다.</br>Advanced : 고급설정을 수행합니다. telegraf 등 설정작업을 수행합니다.</br>Configure Later : 설정을 이후로 미루고 페이지에 진입합니다.|
+|최초 화면|![image](https://user-images.githubusercontent.com/23024189/163518676-5f342fe2-3b3a-4ef3-971d-a2d1a1507127.png)|http://<설치서버IP>:8086 접속 및 최초 정보 입력<br>최초 로그인 시 해당 화면으로 진입하여 최초 설정을 진행합니다.|
+|초기 설정|![image](https://user-images.githubusercontent.com/23024189/163518706-23e9bb43-846b-4cfc-b628-6b121160b0e7.png)|username, password, initial organization name 및 초기 bucket name 을 입력합니다.<br>해당 가이드에서는 아래와 같이 진행하였습니다.<br>username : admin</br>password :<br>initial organization name :<br>initial bucket name : influxdb-data|
+|완료|![image](https://user-images.githubusercontent.com/23024189/163518838-f2fcc8d9-e19f-4535-a9ee-d529b32635c2.png)|최초 데이터 수집 방법을 질의합니다.<br>Quick Start : 초기 설정을 구성합니다. 예제 대시보드 및 예제 수집이 포함됩니다.<br>Advanced : 고급설정을 수행합니다. telegraf 등 설정작업을 수행합니다.<br>Configure Later : 설정을 이후로 미루고 페이지에 진입합니다.|
 
 프로그램 종료
 ------------
