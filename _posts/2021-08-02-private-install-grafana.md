@@ -30,7 +30,7 @@ wget https://dl.grafana.com/oss/release/grafana-8.0.6-1.x86_64.rpm
 ------------
 
 ```bash
-[root@openwebt01 downloads]# yum install grafana-8.0.6-1.x86_64.rpm 
+[root@downloads]# yum install grafana-8.0.6-1.x86_64.rpm 
 Loaded plugins: product-id, search-disabled-repos, subscription-manager
  
 This system is not registered with an entitlement server. You can use subscription-manager to register.
@@ -281,15 +281,15 @@ Dependency Installed:
   xorg-x11-server-utils.x86_64 0:7.7-20.el7                   
  
 Complete!
-[root@openwebt01 downloads]# 
+[root@downloads]# 
 ```
 
 실행
 -----------
 
 ```bash
-[root@openwebt01 downloads]# systemctl start grafana-server
-[root@openwebt01 downloads]# systemctl status grafana-server
+[root@downloads]# systemctl start grafana-server
+[root@downloads]# systemctl status grafana-server
 ● grafana-server.service - Grafana instance
    Loaded: loaded (/usr/lib/systemd/system/grafana-server.service; disabled; vendor preset: disabled)
    Active: active (running) since 월 2021-08-02 09:58:42 KST; 4s ago
@@ -298,17 +298,17 @@ Complete!
    CGroup: /system.slice/grafana-server.service
            └─10783 /usr/sbin/grafana-server --config=/etc/grafana/grafana.ini --pidfile=/var/run/grafana/grafana-server.pid --packaging=rpm cfg:default.paths.logs=/var/log/grafana cfg:default.paths.data=/var/lib/grafana cfg:default.paths.plugins=/var/lib/grafana/plugins cfg:default.paths.provisioning=/etc/grafa...
  
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="migrations completed" logger=migrator performed=330 skipped=0 duration=507.041783ms
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Created default admin" logger=sqlstore user=admin
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Created default organization" logger=sqlstore
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Starting plugin search" logger=plugins
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Registering plugin" logger=plugins id=input
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Registering plugin" logger=plugins id=grafana-plugin-admin-app
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="External plugins directory created" logger=plugins directory=/var/lib/grafana/plugins
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
- 8월 02 09:58:42 openwebt01 systemd[1]: Started Grafana instance.
- 8월 02 09:58:42 openwebt01 grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:3000 protocol=http subUrl= socket=
-[root@openwebt01 downloads]# 
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="migrations completed" logger=migrator performed=330 skipped=0 duration=507.041783ms
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Created default admin" logger=sqlstore user=admin
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Created default organization" logger=sqlstore
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Starting plugin search" logger=plugins
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Registering plugin" logger=plugins id=input
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Registering plugin" logger=plugins id=grafana-plugin-admin-app
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="External plugins directory created" logger=plugins directory=/var/lib/grafana/plugins
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+ 8월 02 09:58:42 xxxxxx systemd[1]: Started Grafana instance.
+ 8월 02 09:58:42 xxxxxx grafana-server[10783]: t=2021-08-02T09:58:42+0900 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:3000 protocol=http subUrl= socket=
+[root@downloads]# 
 ```
 
 |제목|화면|비고|
@@ -321,24 +321,24 @@ Complete!
 ------------
 
 ```bash
-[root@openwebt01 downloads]# systemctl stop grafana-server
-[root@openwebt01 downloads]# systemctl status grafana-server
+[root@downloads]# systemctl stop grafana-server
+[root@downloads]# systemctl status grafana-server
 ● grafana-server.service - Grafana instance
    Loaded: loaded (/usr/lib/systemd/system/grafana-server.service; disabled; vendor preset: disabled)
    Active: inactive (dead)
      Docs: http://docs.grafana.org
  
- 8월 02 10:10:15 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:15+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
- 8월 02 10:10:15 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:15+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
- 8월 02 10:10:21 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:21+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
- 8월 02 10:10:21 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:21+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
- 8월 02 10:10:35 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:35+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
- 8월 02 10:10:35 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:35+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
- 8월 02 10:10:50 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:50+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
- 8월 02 10:10:50 openwebt01 grafana-server[10783]: t=2021-08-02T10:10:50+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
- 8월 02 10:15:41 openwebt01 systemd[1]: Stopping Grafana instance...
- 8월 02 10:15:41 openwebt01 systemd[1]: Stopped Grafana instance.
-[root@openwebt01 downloads]# 
+ 8월 02 10:10:15 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:15+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
+ 8월 02 10:10:15 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:15+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
+ 8월 02 10:10:21 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:21+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
+ 8월 02 10:10:21 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:21+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
+ 8월 02 10:10:35 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:35+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
+ 8월 02 10:10:35 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:35+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
+ 8월 02 10:10:50 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:50+0900 lvl=warn msg="Request Origin is not authorized" logger=live origin=http://172.30.161.221:3000 appUrl=http://localhost:3000/ allowedOrigins=
+ 8월 02 10:10:50 xxxxxx grafana-server[10783]: t=2021-08-02T10:10:50+0900 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=403 remote_addr=172.28.117.15 time_ms=0 size=10 referer=
+ 8월 02 10:15:41 xxxxxx systemd[1]: Stopping Grafana instance...
+ 8월 02 10:15:41 xxxxxx systemd[1]: Stopped Grafana instance.
+[root@downloads]# 
 ```
 
 
@@ -348,9 +348,9 @@ Complete!
 grafana server 종료 후 수행해야 합니다.
 
 ```bash
-[root@openwebt01 downloads]# yum list | grep grafana
+[root@downloads]# yum list | grep grafana
 grafana.x86_64                          8.0.6-1                    @/grafana-8.0.6-1.x86_64
-[root@openwebt01 downloads]# yum remove grafana
+[root@downloads]# yum remove grafana
 Loaded plugins: product-id, search-disabled-repos, subscription-manager
  
 This system is not registered with an entitlement server. You can use subscription-manager to register.
@@ -386,5 +386,5 @@ Removed:
   grafana.x86_64 0:8.0.6-1                                                                                                                                                                                                                                                                                                 
  
 Complete!
-[root@openwebt01 downloads]# 
+[root@downloads]# 
 ```
