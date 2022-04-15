@@ -28,7 +28,7 @@ SCOUTER의 주요 모니터링 항목 :
 
 다운로드
 =============
-설치 경로 : [https://github.com/scouter-project/scouter/releases/]
+설치 경로 : [https://github.com/scouter-project/scouter/releases/](https://github.com/scouter-project/scouter/releases/)
 
 download 대상 파일 :
 + scouter-all-x.xx.x.x.SNAPSHOT.tar.gz : Agent 및 Server
@@ -46,7 +46,7 @@ wget https://github.com/scouter-project/scouter/releases/download/vx.x.x/scouter
 
 참고자료
 -------------
-설치 매뉴얼(한글) : [https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md]
+설치 매뉴얼(한글) : [https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md](https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Setup_kr.md)
 
 사전 작업
 -------------
@@ -137,7 +137,7 @@ export JAVA_OPTS="$JAVA_OPTS -Dscouter.config=$AGENT_HOME/conf/scouter.conf"
 
 개요
 -------------
-[https://scouter-contrib.github.io/scouter-paper/] 참고
+[https://scouter-contrib.github.io/scouter-paper/](https://scouter-contrib.github.io/scouter-paper/) 참고
 
 SCOUTER PAPER 프로젝트는 오픈 소스 APM인 SCOUTER WEB API를 활용하여, 성능 데이터를 웹을 통해 확인할 수 있도록 제공하는 대시보드 소프트웨어입니다.
 많은 사람들과 기업에서 사용하는 APM인 SCOUTER 클라이언트가 성능과 사용성면에서 매우 훌륭하지만, 플랫폼의 특성으로인한 접근성의 한계가 존재하여, 이를 보완하는 보조 도구의 역할로 사용될 수 있도록 하기 위해 다양한 디바이스에서 접근 가능한 형태의 웹 클라이언트를 만들어 배포하며 시작되었습니다.
@@ -146,12 +146,12 @@ SCOUTER PAPER는 아파치 라이선스 2.0을 따르는 오픈 소스 소프트
 
 다운로드
 -------------
-+ 설치 경로 : [https://github.com/scouter-contrib/scouter-paper/releases]
++ 설치 경로 : [https://github.com/scouter-contrib/scouter-paper/releases](https://github.com/scouter-contrib/scouter-paper/releases)
 
 설치 및 실행
 -------------
 ### 참고
-+ 설치 매뉴얼 : [https://scouter-contrib.github.io/scouter-paper/manual.html]
++ 설치 매뉴얼 : [https://scouter-contrib.github.io/scouter-paper/manual.html](https://scouter-contrib.github.io/scouter-paper/manual.html)
 
 ### 설정
 + scouter server 와 같은 경로상의 webapp 를 확인
